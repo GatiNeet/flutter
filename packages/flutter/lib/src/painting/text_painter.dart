@@ -878,7 +878,8 @@ class TextPainter {
 
   /// Returns the position within the text for the given pixel offset.
   TextPosition getPositionForOffset(Offset offset) {
-    assert(!_needsLayout);
+    assert(!
+    _needsLayout);
     return _paragraph!.getPositionForOffset(offset);
   }
 
